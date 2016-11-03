@@ -7,7 +7,7 @@ C language defines the basic data types with *at least* N bits.
 each data type depends on the compiler implementation you use. This code aims
 to produce a table for reference.
 
-Compile the code and upload it to your arduino board and open the serial port
+Compile the code, upload it to your arduino board and open the serial port
 monitor.
 
 
@@ -52,4 +52,4 @@ Code uses standard avr-libc libraries and
 
 ## License
 
-This project is licensed under the MIT License
+This project is licensed under the MIT License.
