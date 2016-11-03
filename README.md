@@ -38,11 +38,16 @@ Using avr-gcc 5.3.0 and Arduino UNO board, the output is:
 	
 	Other types:
 	        sizeof(char):           1
+	        sizeof(byte):           1
 	        sizeof(bool):           1
 	        sizeof(void):           1
 	        sizeof(void*):          2
+	        sizeof(word):           2
 	        sizeof(size_t):         2
 	        sizeof(ptrdiff_t):      2
+	
+	Arduino objects:
+	        sizeof(Serial):         157
 
 ## Dependencies
 

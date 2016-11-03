@@ -47,11 +47,16 @@ void loop()
 
 	Serial.println("\nOther types:");
 	printSize<char>("char", "\t\t");
+	printSize<byte>("byte", "\t\t");
 	printSize<bool>("bool", "\t\t");
 	printSize<void>("void", "\t\t");
 	printSize<void*>("void*", "\t\t");
+	printSize<word>("word", "\t\t");
 	printSize<size_t>("size_t");
 	printSize<ptrdiff_t>("ptrdiff_t");
+
+	Serial.println("\nArduino objects:");
+	printSize<HardwareSerial>("Serial");
 
 	Serial.println("\n\n");
 	digitalWrite(pinLed, LOW);
