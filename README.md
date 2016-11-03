@@ -3,7 +3,7 @@
 Serial.print the size of most C data types.
 
 C language defines the basic data types with *at least* N bits.
-[1](https://en.wikipedia.org/wiki/C_data_types) The actual number of bits in
+[\[1\]](https://en.wikipedia.org/wiki/C_data_types) The actual number of bits in
 each data type depends on the compiler implementation you use. This code aims
 to produce a table for reference.
 
