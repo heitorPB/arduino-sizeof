@@ -15,7 +15,7 @@ void printSize(String name, String tab = "\t")
 void setup()
 {
 	Serial.begin(115200);
-	while (!Serial.available());
+	while (!Serial);
 	pinMode(pinLed, OUTPUT);
 }
 
